@@ -61,4 +61,10 @@
   (printout t "Sign 2: " ?sg2 crlf crlf)
 )
 
+(defrule delete
+   =>
+   (printout t "Name of disease: " crlf)
+   (bind ?name (read))
+   (retract (Diseases (nombre ?name)))
+)
 
