@@ -1,9 +1,9 @@
-(deftemplate Diseases 
+```(deftemplate Diseases 
   (slot name) 
   (slot symptoms_1) 
   (slot symptoms_2) 
   (slot signs_1) 
-  (slot signs_2)) 
+  (slot signs_2)) ```
  
 (assert (Diseases 
 (name Arthritis) 
