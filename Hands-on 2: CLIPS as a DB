@@ -65,6 +65,9 @@
    =>
    (printout t "Name of disease: " crlf)
    (bind ?name (read))
+(Diseases (name ?name))
+=>
    (retract (Diseases (nombre ?name)))
 )
+
 
