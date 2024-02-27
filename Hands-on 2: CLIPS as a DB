@@ -55,7 +55,7 @@
             (signs_2 ?sg2))
   =>
   (printout t "Name of the disease: " ?n crlf)
-  (printout t "Symptom1: " ?sy1 crlf)
+  (printout t "Symptom 1: " ?sy1 crlf)
   (printout t "Symptom 2: " ?sy2 crlf)
   (printout t "Sign 1: " ?sg1 crlf)
   (printout t "Sign 2: " ?sg2 crlf crlf)
